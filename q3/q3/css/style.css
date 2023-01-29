@@ -5,7 +5,7 @@ table{
 }
 
 tr,th,td{
-    border: solid;
+    border: solid #000000;
     border-width: 1px;
     padding:10px;
     text-align: center;
