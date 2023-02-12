@@ -1,101 +1,107 @@
 @charset "UTF-8";
 /* 回答はここから */
 
+.inner{
+  width:200px;
+}
+
 .box_Q1_a_wrapper{
-    display: block;
-    width: 200px;
-    background:white;
-    text-align: center;
+  display: block;
+  width: 200px;
+  background:white;
+  text-align: center;
 }
 
 .box_Q1_a{
-    display: inline-block;
-    background:#a4b3e9;
-    text-align: center;
-    margin: 20px;
+  display: inline-block;
+  background:#a4b3e9;
+  text-align: center;
+  margin: 20px;
 }
 .box_Q1_b_wrapper{
-    display: block;
-    width: 200px;
-    background:white;
-    padding-top:20px;
-    padding-bottom:20px;
+  display: block;
+  width: 200px;
+  background:white;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .box_Q1_b{
-    display: block;
-    width:90px;
-    background:#a4b3e9;
-    text-align: center;
-    margin:auto;
+  display: block;
+  width:90px;
+  background:#a4b3e9;
+  text-align: center;
+  margin:auto;
 }
 
 .text_Q1_ab{
-    display: inline-block;
-    margin: 10px;
-    font-size: 16px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
 }
 
 .box_Q1_c_wrapper{
-    width:inherit;
-    height: inherit;
-    display:table;
+  width:inherit;
+  height: inherit;
+  display:table;
 }
 
 .box_Q1_c{
-    display:table-cell;
-    vertical-align:middle;
-    text-align: center;
+  display:table-cell;
+  vertical-align:middle;
+  text-align: center;
 }
 .text_Q1_c_wrapper{
-    display: inline-block;
-    background:#fff;
+  display: inline-block;
+  background:#fff;
 }
 
 .text_Q1_c{
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
 }
 
 .box_Q1_d_wrapper{
-    display: flex;
-    width: inherit;
-    height: inherit;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: inherit;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
 }
 
 .box_Q1_d{
-    display: block;
-    background:#fff;
+  display: block;
+  background:#fff;
 }
 
 .text_Q1_d{
-    display: inline-block;
-    margin: 10px;
-    font-size: 16px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
 }
 
 .box_Q1_e_wrapper{
-    position: relative;
-    width: inherit;
-    height: inherit;
+  position: relative;
+  width: inherit;
+  height: inherit;
 }
 
 .box_Q1_e{
-    position: absolute;
-    display: block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
+
 .text_Q1_e_wrapper{
-    display: block;
-    background:#a4b3e9;
+  display: block;
+  background:#a4b3e9;
 }
+
 .text_Q1_e{
-    display: inline-block;
-    margin: 10px;
-    font-size: 16px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
 }
