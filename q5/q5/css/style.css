@@ -1,108 +1,115 @@
 @charset "UTF-8";
 
 .flexbox{
-    display:flex;
-    gap: 20px;
-    width:100%;
-    margin-bottom:20px;
+  display:flex;
+  gap: 20px;
+  width:100%;
+  margin-bottom:20px;
 }
 
 .flexbox > div{
-    width: 65px;
-    padding: 10px;
-    background-color: #00bbdd;
-    color: #fff;
-    text-align: center;
+  width: 65px;
+  padding: 10px;
+  background-color: #00bbdd;
+  color: #fff;
+  text-align: center;
 }
 
 .grid{
-    display: grid;
-    width:100%;
-    margin-bottom: 20px;
+  display: grid;
+  width:100%;
+  margin-bottom: 20px;
 }
+
 .grid > div{
-    padding: 10px;
-    background-color: #00bbdd;
-    color: #fff;
-    text-align: left;
+  padding: 10px;
+  background-color: #00bbdd;
+  color: #fff;
+  text-align: left;
 }
 
 .q1-a{
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .q1-b{
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .q1-c{
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .q1-d{
-    flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 
 .q2-a{
-    flex-wrap:nowrap;
+  flex-wrap:nowrap;
 }
+
 .q2-b{
-    flex-wrap:wrap;
+  flex-wrap:wrap;
 }
+
 .q2-c{
-    flex-wrap:wrap-reverse;
+  flex-wrap:wrap-reverse;
 }
 
 .q3-a{
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
+
 .q3-b{
-    justify-content: end;
+  justify-content: end;
 }
+
 .q3-c{
-    justify-content: center;
+  justify-content: center;
 }
+
 .q3-d{
-    justify-content: space-between;
+  justify-content: space-between;
 }
+
 .q3-e{
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .q4-a{
-    grid-template-columns: 200px 200px 200px;
-    gap:10px
+  grid-template-columns: 200px 200px 200px;
+  gap:10px
 }
 
 .q4-b{
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:10px
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10px
 }
 
 .q4-c{
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px;
-    gap:10px
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap:10px
 }
 
 .q4-d{
-    grid-template-rows: 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px;
-    gap:10px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  gap:10px;
 }
 
 .q4-d > .item1{
-    background-color: #dd0700;
-    grid-column: 1/3;
-    grid-row: 1;
+  background-color: #dd0700;
+  grid-column: 1/3;
+  grid-row: 1;
 }
 
 .q4-d > .item3{
-    background-color: #0bdd00;
-    grid-row: 2/4;
+  background-color: #0bdd00;
+  grid-row: 2/4;
 }
 
 .q4-d > .item4{
-    background-color: #d9dd00;
-    grid-column: 2/4;
+  background-color: #d9dd00;
+  grid-column: 2/4;
 }
